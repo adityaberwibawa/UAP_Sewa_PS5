@@ -21,7 +21,6 @@ public class Dashboard extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        // Apply theme background
         getContentPane().setBackground(ThemeManager.getBackgroundColor());
 
         initUI();
