@@ -6,7 +6,7 @@ import java.awt.*;
 
 public class ThemeManager {
 
-    // ========== THEME DEFINITIONS ==========
+    // THEME DEFINITIONS
     public enum Theme {
         DARK_TEAL,
         LIGHT_BLUE,
@@ -14,7 +14,7 @@ public class ThemeManager {
         GREEN_NATURE
     }
 
-    // ========== CURRENT THEME COLORS ==========
+    //  CURRENT THEME COLORS 
     private static Color primaryColor;
     private static Color backgroundColor;
     private static Color panelColor;
@@ -24,7 +24,7 @@ public class ThemeManager {
     private static Color accentColor;
     private static Color borderColor;
 
-    // ========== THEME PRESETS ==========
+    //  THEME PRESETS 
     private static final Color[][] THEME_PRESETS = {
             // DARK_TEAL
             {
@@ -72,13 +72,13 @@ public class ThemeManager {
             }
     };
 
-    // ========== INITIALIZATION ==========
+    //  INITIALIZATION 
     static {
         // Set tema default
         setTheme(Theme.DARK_TEAL);
     }
 
-    // ========== PUBLIC METHODS ==========
+    //  PUBLIC METHODS 
 
     public static void setTheme(Theme theme) {
         int index = theme.ordinal();
@@ -119,7 +119,7 @@ public class ThemeManager {
         }
     }
 
-    // ========== GETTER METHODS ==========
+    //  GETTER METHODS 
     public static Color getPrimaryColor() { return primaryColor; }
     public static Color getBackgroundColor() { return backgroundColor; }
     public static Color getPanelColor() { return panelColor; }
@@ -129,7 +129,7 @@ public class ThemeManager {
     public static Color getAccentColor() { return accentColor; }
     public static Color getBorderColor() { return borderColor; }
 
-    // ========== HELPER METHODS FOR COMPONENTS ==========
+    //  HELPER METHODS FOR COMPONENTS 
 
     public static JButton createStyledButton(String text) {
         JButton button = new JButton(text);
@@ -195,7 +195,7 @@ public class ThemeManager {
         combo.setFont(new Font("Segoe UI", Font.PLAIN, 12));
     }
 
-    // ========== PRIVATE METHOD TO APPLY THEME ==========
+    //  PRIVATE METHOD TO APPLY THEME 
     private static void applyThemeToUIManager() {
         // Basic Nimbus colors
         UIManager.put("nimbusBase", panelColor.darker());
