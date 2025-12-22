@@ -24,18 +24,16 @@ public class ListPS5 extends JPanel {
     }
 
     private void initUI() {
-        // Panel utama
+
         JPanel mainPanel = ThemeManager.createStyledPanel(true);
         mainPanel.setLayout(new BorderLayout(10, 10));
 
-        // Header
         JPanel headerPanel = new JPanel(new BorderLayout());
         headerPanel.setBackground(ThemeManager.getBackgroundColor());
 
         JLabel titleLabel = ThemeManager.createStyledLabel("📋 DAFTAR PS5", 20, true);
         headerPanel.add(titleLabel, BorderLayout.WEST);
-
-        // Panel pencarian
+        
         JPanel searchPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT, 10, 5));
         searchPanel.setBackground(ThemeManager.getBackgroundColor());
 
