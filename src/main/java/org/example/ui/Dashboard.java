@@ -9,8 +9,7 @@ import java.awt.event.ActionListener;
 public class Dashboard extends JFrame {
     private JPanel contentPanel;
     private CardLayout cardLayout;
-
-    // Panel references
+    
     private ListPS5 listPs5Panel;
     private FormSewa formSewaPanel;
     private FormPengembalian formPengembalianPanel;
