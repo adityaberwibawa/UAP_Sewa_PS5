@@ -24,7 +24,6 @@ public class Rental {
         this.status = status;
     }
 
-    // Getters
     public int getId() { return id; }
     public String getNamaPenyewa() { return namaPenyewa; }
     public String getTelepon() { return telepon; }
@@ -33,8 +32,7 @@ public class Rental {
     public int getDurasiHari() { return durasiHari; }
     public double getTotalHarga() { return totalHarga; }
     public String getStatus() { return status; }
-
-    // Setter
+    
     public void setStatus(String status) { this.status = status; }
 
     // Format untuk disimpan ke file
