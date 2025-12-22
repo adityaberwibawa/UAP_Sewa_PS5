@@ -17,15 +17,13 @@ public class PS5 {
         this.kondisi = kondisi;
     }
 
-    // Getters
     public int getId() { return id; }
     public String getNama() { return nama; }
     public String getTipe() { return tipe; }
     public int getHargaPerHari() { return hargaPerHari; }
     public String getStatus() { return status; }
     public String getKondisi() { return kondisi; }
-
-    // Setters
+    
     public void setNama(String nama) { this.nama = nama; }
     public void setTipe(String tipe) { this.tipe = tipe; }
     public void setHargaPerHari(int hargaPerHari) { this.hargaPerHari = hargaPerHari; }
