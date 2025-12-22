@@ -32,7 +32,6 @@ public class Laporan extends JPanel {
         JPanel mainPanel = ThemeManager.createStyledPanel(true);
         mainPanel.setLayout(new BorderLayout(10, 10));
 
-        // Header Panel
         JPanel headerPanel = new JPanel(new BorderLayout());
         headerPanel.setBackground(ThemeManager.getBackgroundColor());
 
