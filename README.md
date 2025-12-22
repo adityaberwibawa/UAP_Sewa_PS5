@@ -20,9 +20,8 @@ Fitur inti yang umumnya ada di aplikasi ini meliputi:
 - Tampilan daftar penyewaan aktif dan selesai.
 - Penyimpanan data sementara selama aplikasi berjalan.
 
-*(Fitur di atas bisa disesuaikan berdasarkan isi kode yang sebenarnya — konfirmasi ulang jika ada modul khusus.)*
 
-## Struktur Proyek
+## Struktur Proyek 
 ```text
 UAP_Sewa_PS5/
 ├── src/
