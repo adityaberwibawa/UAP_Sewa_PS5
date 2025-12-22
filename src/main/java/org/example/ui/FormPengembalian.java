@@ -58,7 +58,7 @@ public class FormPengembalian extends JPanel {
         sewaCombo.addActionListener(e -> showRentalDetails());
         contentPanel.add(sewaCombo, gbc);
 
-        // Detail Panel
+        // Detail Penyewaan
         gbc.gridx = 0; gbc.gridy = 1; gbc.gridwidth = 2;
         JLabel detailTitle = ThemeManager.createStyledLabel("Detail Penyewaan:", 14, true);
         detailTitle.setBorder(BorderFactory.createEmptyBorder(10, 0, 5, 0));
