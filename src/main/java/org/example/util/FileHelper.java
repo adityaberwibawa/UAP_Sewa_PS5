@@ -6,7 +6,6 @@ import java.util.List;
 
 public class FileHelper {
 
-    // Baca semua baris dari file
     public static List<String> readAllLines(String filename) {
         List<String> lines = new ArrayList<>();
 
@@ -41,7 +40,7 @@ public class FileHelper {
         }
     }
 
-    // Update file dengan list baru
+    // Update file
     public static void updateFile(String filename, List<String> lines) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
             for (String line : lines) {
