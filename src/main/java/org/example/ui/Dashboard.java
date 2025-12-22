@@ -64,7 +64,7 @@ public class Dashboard extends JFrame {
         buttonPanel.setBackground(ThemeManager.getBackgroundColor());
         buttonPanel.setBorder(BorderFactory.createEmptyBorder(20, 50, 20, 50));
 
-        String[] buttons = {"📋 List PS5", "➕ Sewa Baru", "🔄 Pengembalian", "📊 Laporan"};
+        String[] buttons = {"List PS5", "Sewa Baru", "Pengembalian", "Laporan"};
         String[] descriptions = {
                 "Lihat dan kelola semua PS5 yang tersedia",
                 "Buat transaksi penyewaan baru",
@@ -118,19 +118,19 @@ public class Dashboard extends JFrame {
         @Override
         public void actionPerformed(ActionEvent e) {
             switch (page) {
-                case "📋 List PS5":
+                case "List PS5":
                     listPs5Panel.refresh();
                     cardLayout.show(contentPanel, "LIST_PS5");
                     break;
-                case "➕ Sewa Baru":
+                case "Sewa Baru":
                     formSewaPanel.refresh();
                     cardLayout.show(contentPanel, "FORM_SEWA");
                     break;
-                case "🔄 Pengembalian":
+                case "Pengembalian":
                     formPengembalianPanel.refresh();
                     cardLayout.show(contentPanel, "FORM_PENGEMBALIAN");
                     break;
-                case "📊 Laporan":
+                case "Laporan":
                     cardLayout.show(contentPanel, "LAPORAN");
                     break;
             }
