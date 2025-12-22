@@ -6,7 +6,8 @@ import javax.swing.*;
 public class MainApp {
 
     public static void main(String[] args) {
-
+        ThemeManager.applyLookAndFeel();
+        ThemeManager.setTheme(ThemeManager.Theme.DARK_TEAL); // Default theme
 
         // Buat folder data jika belum ada
         java.io.File dataDir = new java.io.File("data");
