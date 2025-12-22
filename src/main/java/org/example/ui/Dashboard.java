@@ -16,7 +16,7 @@ public class Dashboard extends JFrame {
     private Laporan laporanPanel;
 
     public Dashboard() {
-        setTitle("Dashboard - Sewa PS5");
+        setTitle("PS5 Rental System");
         setSize(900, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -55,7 +55,7 @@ public class Dashboard extends JFrame {
         mainPanel.setLayout(new BorderLayout(20, 20));
 
         // Header
-        JLabel titleLabel = ThemeManager.createStyledLabel("🎮 SISTEM SEWA PS5", 28, true);
+        JLabel titleLabel = ThemeManager.createStyledLabel("ANJAY MABAR PS5 HOEE", 28, true);
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
         titleLabel.setBorder(BorderFactory.createEmptyBorder(20, 0, 30, 0));
 
