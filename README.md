@@ -1,7 +1,7 @@
 # UAP_Sewa_PS5
 
 ## Ringkasan
-Proyek ini merupakan aplikasi **sistem penyewaan PlayStation 5 (PS5)** sebagai tugas akhir **Ujian Akhir Semester (UAP)** mata kuliah **Pemrograman Lanjut**. Aplikasi dibangun menggunakan **Java** dengan struktur proyek standar berbasis **Maven**, mencakup model data, logika bisnis, dan antarmuka sederhana untuk mengelola data penyewaan konsol PS5.
+Proyek ini merupakan aplikasi **sistem penyewaan PlayStation 5 (PS5)** sebagai tugas akhir **Ujian Akhir Semester (UAP)** mata kuliah **Pemrograman Lanjut**. Aplikasi dibangun menggunakan **Java** dengan struktur proyek standar berbasis **Maven** dan **GUI** dengan **Javax Swing**, mencakup model data, logika bisnis, dan antarmuka sederhana untuk mengelola data penyewaan konsol PS5.
 
 **Penanggung Jawab:**
 - Muhammad Aditya Wibawa (407)
