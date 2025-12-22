@@ -52,7 +52,7 @@ public class FormSewa extends JPanel {
         ThemeManager.styleTextField(teleponField);
         mainPanel.add(teleponField, gbc);
 
-        // Pilih PS5
+        // Pilihan PS5
         gbc.gridx = 0; gbc.gridy = 3;
         mainPanel.add(ThemeManager.createStyledLabel("Pilih PS5:", 12, false), gbc);
         gbc.gridx = 1;
