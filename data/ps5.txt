@@ -1,0 +1,5 @@
+1,PS5-001,Standard,15000,Available,Excellent
+2,PS5-002,Digital,12000,Available,Good
+3,PS5-003,Standard,15000,Rented,Good
+4,PS5-004,Digital,12000,Available,Excellent
+5,PS5-005,Standard,15000,Available,Fair
