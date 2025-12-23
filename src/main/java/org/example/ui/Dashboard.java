@@ -91,7 +91,7 @@ public class Dashboard extends JFrame {
 
         // Footer
         JPanel footerPanel = ThemeManager.createStyledPanel(true);
-        JLabel footerLabel = ThemeManager.createStyledLabel("© 2024 Sistem Sewa PS5 - Version 1.0", 12, false);
+        JLabel footerLabel = ThemeManager.createStyledLabel("© 2025 Sistem Sewa PS5 - Version 1.0", 12, false);
         footerLabel.setHorizontalAlignment(SwingConstants.CENTER);
         footerPanel.add(footerLabel);
 
